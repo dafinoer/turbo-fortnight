@@ -7,12 +7,10 @@ https://www.hackerrank.com/challenges/a-very-big-sum/problem
 '''
 
 def aVeryBigSum(ar):
+    a=sum(ar)
+    return a
     
-    get_you = 0
-    for data in ar:
-        get_you += data
-        
-    return get_you
+   
 
 
 if __name__ == '__main__':
