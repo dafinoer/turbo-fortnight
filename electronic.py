@@ -4,8 +4,8 @@ hacker rank
 https://www.hackerrank.com/challenges/electronics-shop/problem
 '''
 
-def getMoneySpent(keyboards, drives, b):
-    #
+def get_Money_Spent(keyboards, drives, budget):
+    #get
     # Write your code here.
     #
     list_data = []
@@ -26,4 +26,4 @@ if __name__ == '__main__':
     keyboard = [3, 1]
     driver = [5, 2, 8]
     budget = 10
-    getMoneySpent(keyboard, driver, budget)
+  print(get_Money_Spent(keyboard, driver, budget))
