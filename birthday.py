@@ -9,13 +9,13 @@ def birthdayCakeCandles(ar):
     
     max_data = max(ar)
     
-    jumlah = 0
-    for data in ar:
+    x = 0
+    for i in ar:
         
-        if data == max_data:
-            jumlah += 1
+        if i == max_data:
+            x+= 1
     
-    return jumlah
+    return x
 
 
 if __name__ == '__main__':
