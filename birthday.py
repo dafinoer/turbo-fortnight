@@ -5,7 +5,7 @@ https://www.hackerrank.com/challenges/birthday-cake-candles/problem
 '''
 
 
-def birthdayCakeCandles(ar):
+def birthday_Cake_Candles(ar):
     
     max_data = max(ar)
     
@@ -20,4 +20,4 @@ def birthdayCakeCandles(ar):
 
 if __name__ == '__main__':
     candle = [3, 2, 1, 3]
-    birthdayCakeCandles(candle)
+    birthday_Cake_Candles(candle)
